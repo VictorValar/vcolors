@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = '0.0.1'
+VERSION = '0.0.2'
 DESCRIPTION = 'Your terminal colored and pretty printed'
 LONG_DESCRIPTION = 'A package that allows you to print colored text to the terminal, extends pprint and colored'
 
@@ -14,7 +14,7 @@ setup(
     long_description_content_type="text/markdown",
     long_description=LONG_DESCRIPTION,
     packages=find_packages(),
-    install_requires=['colored', 'pprint'],
+    install_requires=['colored'],
     keywords=['python','colored', 'pprint','print','terminal'],
     classifiers=[
         "Development Status :: 1 - Planning",
