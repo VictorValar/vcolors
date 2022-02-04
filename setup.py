@@ -1,23 +1,23 @@
 from setuptools import setup, find_packages
 
-VERSION = '1.0'
+VERSION = '1.2'
 DESCRIPTION = 'Your terminal colored and pretty printed'
-LONG_DESCRIPTION = 'A package that allows you to print colored text to the terminal, extends pprint and colored'
+LONG_DESCRIPTION = 'A package that allows you to print colored text to the terminal, extends Color_Console'
 
 # Setting up
 setup(
     name="vcolors",
     version=VERSION,
     author="Victor Valar",
-    author_email="<victoribeirodosantos@hotmail.com>",
+    author_email="<victor@valar.codes>",
     description=DESCRIPTION,
     long_description_content_type="text/markdown",
     long_description=LONG_DESCRIPTION,
     packages=find_packages(),
-    install_requires=['colored'],
-    keywords=['python','colored', 'pprint','print','terminal'],
+    install_requires=['Color_Console==10.0'],
+    keywords=['python','colored', 'Color_Console','print','terminal'],
     classifiers=[
-        "Development Status :: 1 - Planning",
+        "Development Status :: 5 - Production/Stable",
         "Intended Audience :: Developers",
         "Programming Language :: Python :: 3",
         "Operating System :: Unix",

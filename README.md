@@ -1,2 +1,2 @@
 # vcolors
-Your terminal colored and pretty printed
+Yet anoter terminal coloring package 
