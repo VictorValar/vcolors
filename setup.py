@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = '1.2'
+VERSION = '1.3'
 DESCRIPTION = 'Your terminal colored and pretty printed'
 LONG_DESCRIPTION = 'A package that allows you to print colored text to the terminal, extends Color_Console'
 

@@ -1,6 +1,9 @@
 
 from Color_Console import *
-
+from colorama import init
+from colored import init as colored_init
+init()
+colored_init()
 # import colored
 # p_fail = colored.fg('red') + colored.attr('bold')
 # p_fail_bg = colored.bg('dark_red_1') + colored.fg('red')
